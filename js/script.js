@@ -1,2 +1,1 @@
-// $(function () {});
 new WOW().init();

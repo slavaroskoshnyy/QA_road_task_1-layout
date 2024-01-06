@@ -16,7 +16,8 @@
    overflow: hidden;
 }
 
-.content {
+.content,
+footer {
    margin: 0 auto;
    width: 1280px;
 }
@@ -359,35 +360,97 @@
 
 .footer {
 
-   &__contscts {
+   &__contacts {
       height: 510px;
       background-color: $color_basic;
+      padding: 50px 0 45px;
    }
 }
 
-.container {}
-
-.contscts {
-
-   &__title {}
-}
-
-.title {}
-
 .contacts {
 
-   &__row {}
+   &__title {
+      color: $color_white;
+      margin-bottom: 30px;
+   }
+
+   &__row {
+      display: flex;
+   }
 
    &__column {}
 }
 
-.data {}
+.data {
+
+   form {
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-left: 200px;
+
+
+      input {
+         margin-bottom: 22px;
+         padding: 0 10px;
+         width: 500px;
+         height: 40px;
+         background-color: #ffffff;
+         border-radius: 5px;
+         color: $color_basic;
+      }
+
+      textarea {
+         width: 500px;
+         height: 170px;
+         background-color: #ffffff;
+         border-radius: 5px;
+         margin-bottom: 22px;
+         padding: 10px;
+         color: $color_basic;
+      }
+
+      button {
+         display: block;
+         width: 140px;
+         height: 40px;
+         background-color: #ffffff;
+         border-radius: 5px;
+         font-size: 16px;
+         line-height: 24px;
+         font-weight: 700;
+         text-transform: uppercase;
+         color: $color_basic;
+      }
+   }
+}
 
 .social {
 
-   &__contacts {}
+   padding-left: 47px;
 
-   &__message {}
+   a {
+      color: $color_white;
+   }
+
+
+   &__contacts {
+
+      .contact {
+
+         display: flex;
+         align-items: center;
+         margin-bottom: 18px;
+
+         a {
+            padding-left: 5px;
+         }
+      }
+   }
+
+   &__message {
+      margin-top: 20px;
+      cursor: pointer;
+   }
 }
-
-.contact {}

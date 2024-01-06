@@ -24,18 +24,20 @@
 	<meta name="apple-mobile-web-app-status-bar-style" content="#445162">
 
 	<link rel="stylesheet" href="css/style.css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body>
 
 	<div class="wrapper">
 		<div class="content">
-			<div class="header">
+			<header class="header wow animate__zoomInUp" data-wow-duration="1.5s">
 				<div class='container'>
 					<div class="header__row">
 						<div class="header__body">
 							<div class="header__colum">
-								<h1 class="header__title">Product name</h1>
+								<h1 class="header__title ">Product name</h1>
 								<ul class="header__list">
 									<li>Put on this page information about your product</li>
 									<li>A detailed description of your product</li>
@@ -49,12 +51,12 @@
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="about">
+			</header>
+			<section class="about">
 				<div class='container'>
 					<div class="about__row">
 						<div class="about__body">
-							<div class="about__colum ">
+							<div class="about__colum wow animate__fadeInLeft" data-wow-duration="2s">
 								<div class="about__description">
 									<h2 class="about__title title">About your product</h2>
 									<p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis
@@ -65,14 +67,14 @@
 										Sequi itaque, unde perferendis nemo debitis dolor.</p>
 								</div>
 							</div>
-							<div class="about__colum">
+							<div class="about__colum wow animate__fadeInRight" data-wow-duration="2s">
 								<div class="about__rectane"></div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="dignity">
+			</section>
+			<section class="dignity  wow animate__backInUp" data-wow-duration="2.5s">
 				<div class='container'>
 					<div class="dignity__title title">Dignity and pluses product</div>
 					<div class="dignity__row">
@@ -112,12 +114,12 @@
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="scrinshots">
+			</section>
+			<section class="scrinshots">
 				<div class="container">
-					<h2 class="scrinshots__title title">Scrinshots</h2>
+					<h2 class="scrinshots__title title wow animate__zoomInUp" data-wow-duration="2s">Scrinshots</h2>
 					<div class="scrinshots__row">
-						<div class="scrinshots__column">
+						<div class="scrinshots__column wow animate__zoomInLeft" data-wow-duration="1.5s">
 							<div class="column__items">
 								<div class="item__row">
 									<div class="item__colum">
@@ -133,7 +135,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="scrinshots__column">
+						<div class="scrinshots__column wow animate__zoomInRight" data-wow-duration="1.5s">
 							<div class="column__items">
 								<div class="item__row">
 									<div class="item__colum">
@@ -149,7 +151,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="scrinshots__column">
+						<div class="scrinshots__column wow animate__zoomInLeft" data-wow-duration="1.5s">
 							<div class="column__items">
 								<div class="item__row">
 									<div class="item__colum">
@@ -165,7 +167,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="scrinshots__column">
+						<div class="scrinshots__column wow animate__zoomInRight" data-wow-duration="1.5s">
 							<div class="column__items">
 								<div class="item__row">
 									<div class="item__colum">
@@ -183,8 +185,8 @@
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="reviews">
+			</section>
+			<section class="reviews wow animate__rotateInUpLeft" data-wow-duration="1.5s">
 				<div class="container">
 					<h2 class="reviews__title title">Reviews</h2>
 					<div class="reviews__row">
@@ -242,12 +244,12 @@
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="buy">
+			</section>
+			<section class="buy">
 				<div class="container">
-					<div class="buy__title title">Buy it now</div>
+					<div class="buy__title title wow animate__rotateIn" data-wow-duration="1.8s">Buy it now</div>
 					<div class="buy__row">
-						<div class="buy__column">
+						<div class="buy__column wow animate__fadeInTopLeft" data-wow-duration="1.5s">
 							<div class="column__itom">
 								<h3 class="column__title">Standart</h3>
 								<div class="column__price">$100</div>
@@ -260,7 +262,7 @@
 								<div class="column__button">BUY</div>
 							</div>
 						</div>
-						<div class="buy__column">
+						<div class="buy__column wow animate__fadeInDown" data-wow-duration="1.5s">
 							<div class="column__itom">
 								<h3 class="column__title">Premium</h3>
 								<div class="column__price">$150</div>
@@ -277,7 +279,7 @@
 								<div class="column__button">BUY</div>
 							</div>
 						</div>
-						<div class="buy__column">
+						<div class="buy__column wow animate__fadeInTopRight" data-wow-duration="1.5s">
 							<div class="column__itom">
 								<h3 class="column__title">Lux</h3>
 								<div class="column__price">$200</div>
@@ -300,18 +302,17 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</section>
 		</div>
-		<!-- <footer class="footer">
-			<div class="container">
-				<div class="footer__contscts">
-					<div class="contscts__title title">Contacts</div>
+		<footer class="footer wow animate__fadeInUp" data-wow-duration="1.5s">
+			<div class="footer__contacts">
+				<div class="container">
+					<div class="contacts__title title">Contacts</div>
 					<div class="contacts__row">
 						<div class="contacts__column data">
 							<form action="" method="post">
 								<input type="text" name="Your name:" placeholder="Your name:" id="">
 								<input type="email" name="Your email:" placeholder="Your email:" id="">
-								<input type="text" name="Your message:" placeholder="Your message:" id="">
 								<textarea name="Your message:" placeholder="Your message:" id="" cols="30" rows="10"></textarea>
 								<button type="submit">Send</button>
 							</form>
@@ -319,31 +320,35 @@
 						<div class="contacts__column social">
 							<div class="social__contacts">
 								<div class="contact">
-									<img src="" alt="">
-									<a href="http://"></a>
+									<img src="img/contacns/skype.png" alt="skype">
+									<a href="#">here_your_login_skype</a>
 								</div>
 								<div class="contact">
-									<img src="" alt="">
-									<a href="tel:+"></a>
+									<img src="img/contacns/icq.png" alt="icq">
+									<a href="tel:+279679659">279679659</a>
 								</div>
 								<div class="contact">
-									<img src="" alt="">
-									<a href="http://"></a>
+									<img src="img/contacns/email.png" alt="email">
+									<a href="http://psdhtmlcss@mail.ru">psdhtmlcss@mail.ru</a>
 								</div>
 								<div class="contact">
-									<img src="" alt="">
-									<a href="tel:+"></a>
+									<img src="img/contacns/phone.png" alt="phone">
+									<a href="tel:+70 00 4568 55 55">80 00 4568 55 55</a>
 								</div>
 							</div>
 							<div class="social__message">
-								<img src="" alt="">
+								<img src="img/contacns/social.png" alt="social">
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</footer> -->
+		</footer>
 	</div>
+
+	<script src="libs/wow.min.js"></script>
+	<script src="js/script.js"></script>
+
 </body>
 
 </html>

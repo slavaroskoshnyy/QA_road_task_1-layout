@@ -86,7 +86,8 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
 }
 
-.content {
+.content,
+footer {
   margin: 0 auto;
   width: 1280px;
 }
@@ -345,7 +346,71 @@ h1, h2, h3, h4, h5, h6 {
   margin: 20px;
 }
 
-.footer__contscts {
+.footer__contacts {
   height: 510px;
   background-color: #445162;
+  padding: 50px 0 45px;
+}
+
+.contacts__title {
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.contacts__row {
+  display: flex;
+}
+.data form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 200px;
+}
+.data form input {
+  margin-bottom: 22px;
+  padding: 0 10px;
+  width: 500px;
+  height: 40px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  color: #445162;
+}
+.data form textarea {
+  width: 500px;
+  height: 170px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin-bottom: 22px;
+  padding: 10px;
+  color: #445162;
+}
+.data form button {
+  display: block;
+  width: 140px;
+  height: 40px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #445162;
+}
+
+.social {
+  padding-left: 47px;
+}
+.social a {
+  color: #ffffff;
+}
+.social__contacts .contact {
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+}
+.social__contacts .contact a {
+  padding-left: 5px;
+}
+.social__message {
+  margin-top: 20px;
+  cursor: pointer;
 }

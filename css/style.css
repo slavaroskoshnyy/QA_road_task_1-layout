@@ -359,6 +359,7 @@ footer {
 .contacts__row {
   display: flex;
 }
+
 .data form {
   display: flex;
   flex-direction: column;
